@@ -26,7 +26,7 @@ class Player:
     def __init__(self):
         self.x = BASE_WIDTH // 2
         self.y = BASE_HEIGHT - 100
-        self.health = 999999
+        self.health = 10
         self.score = 0
 
         self.speed_boost = False
@@ -268,3 +268,4 @@ class Game:
         sys.exit()
 
 Game().run()
+
